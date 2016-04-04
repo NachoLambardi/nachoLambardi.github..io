@@ -1,0 +1,51 @@
+p, dl {
+  color:black;
+  font-size: 20px;
+
+}
+
+p.color-red {
+  color: red
+}
+p.color-gold {
+  color:gold;
+  font-variant: small-caps;
+  font-style: oblique;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+
+}
+body {
+  background-color: white;
+}
+ul {
+  list-style-type: lower-greek;
+}
+p.color-blue {
+  margin-left: 200px;
+
+}
+
+}
+hr {
+  border-width: solid 1px black;
+
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+a {
+  color: blue;
+  padding-left: 30px;
+  text-decoration: underline;
+
+}
+legend {
+  text-align: center;
+}
+fieldset {
+  margin: 20%;
+  padding-top: 1%;
+  margin-top: auto;
+}
