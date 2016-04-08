@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tablas</title>
+        <meta charset="utf-8">
+        <style>
+            table {
+                width: 30%;
+                border-collapse: collapse;
+            }
+
+            tr {
+                border: solid 1px black;
+            }
+            td {
+                border: solid 1px black;
+                width: 25%;
+            }
+            thead #header-row {
+                border-collapse: collapse;
+                text-align: center;
+                color: violet;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr id="header-row">
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>Edad</td>
+                    <td>Localidad</td>
+                </tr>
+            </thead>
+            <tr>
+                <td class="top-row">Menos de 50km</td>
+                <td>$ 100</td>
+                <td>1 dia</td>
+                <td>Varela</td>
+            </tr>
+            <tr>
+                <td>Mas de 50km</td>
+                <td>$ 200</td>
+                <td>2 dias</td>
+                <td>Palermo</td>
+            </tr>
+            <tr>
+                <td>Mas de 100km</td>
+                <td>$&nbsp;300</td>
+                <td>3&nbsp;dias</td>
+                <td>Caba</td>
+            </tr>
+        </table>
+    </body>
+</html>
